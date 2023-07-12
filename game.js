@@ -2,7 +2,6 @@ var buttonColors = ["red", "blue", "green", "yellow"];
 var gamePatterns = [];
 var userClickedPattern = [];
 var level = 0;
-var dummy = 0;
 
 $("body").keypress(function() {
     nextSequence();
